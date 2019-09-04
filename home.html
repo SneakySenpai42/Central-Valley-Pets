@@ -4,93 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container-fluid">
+        <nav class="navbar navbar-default">
+                <div class="container-fluid nav-box">      
+                    <!-- hamburger -->
+                        <div class="collapse navbar-collapse navbar-header" role="navigation ">
+                            <div id = "menuToggle">
+                                <input type="checkbox">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <ul class="nav navbar-nav" id="menu">
+                                    <a href="#"><li>Home</li></a>
+                                    <a href="#"><li>About</li></a>
+                                    <a href="#"><li>Info</li></a>
+                                    <a href="#"><li>Contract</li></a>
+                                    <a href="#"><li>Sign in</li></a>
+                                    <a href="#"><li>Sign out</li></a>
+                                </ul>
+                            </div>
+                        </div>    
+                    
+        
+                        <div class="col-lg-2 col-lg-offset-4" href="#">
+                            <img class=" logo" src="/imgs/CVP Logo.png" alt="">
+                        </div>
+        
+                        <div class="nav navbar-nav navbar-right">
+                            <a href="#">
+                                <button class="btn  btn-lg btn-success navbar-btn" type="button">
+                                    Give a friend
+                                </button>
+                            </a>
+                        </div>
 
-            <div class= "row">
-            <!-- hamburger -->
-                <div class="collapse navbar-collapse col-lg-2" role="navigation ">
-                    <div id = "menuToggle">
-                        <input type="checkbox">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <ul class="nav navbar-nav" id="menu">
-                            <a href="#"><li>Home</li></a>
-                            <a href="#"><li>About</li></a>
-                            <a href="#"><li>Info</li></a>
-                            <a href="#"><li>Contract</li></a>
-                            <a href="#"><li>Sign in</li></a>
-                            <a href="#"><li>Sign out</li></a>
-                        </ul>
-                    </div>
-                </div>    
-            
-
-                <div class="brand col-lg-2 col-lg-offset-4" href="#">
-                    <img class=" logo" src="./imgs/CVP Logo.png" alt="">
+                        <div class="">
+                            <a href="">
+                                <img class="corgie" src="./imgs/corgie.gif" alt="">
+                            </a>
+                        </div>
+        
                 </div>
-
-                <div class="col-lg-2 col-lg-offset-2">
-                    <a href="#">
-                        <button class="btn btn-success" type="button">
-                            Give a friend
-                        </button>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </nav>
+        </nav>
         <!-- start of the body -->
-
+        
         <div class="container">
-            <!-- form 1.0 -->
-            <!-- <form class="form" action="">
-
-                <div class="row">
-                    <div class="form-group col-lg-6">
-                        <button type="button" class="btn btn-default btn-lg">
-                            place holders
-                        </button>
-                    </div>
-                    <div class="form-group col-lg-6">
-                        <button type="button" class="btn btn-default btn-lg">
-                            place holders
-                        </button>
-                    </div>
-                    <div class="form-group col-lg-6">
-                        <button type="button" class="btn btn-default btn-lg">
-                            place holders
-                        </button>
-                    </div>
-                    <div class="form-group col-lg-6">
-                        <button type="button" class="btn btn-default btn-lg">
-                            place holders
-                        </button>
-                    </div>
-                    <div class="form-group col-lg-6">
-                        <button type="button" class="btn btn-default btn-lg">
-                            place holders
-                        </button>
-                    </div>
-                    <div class="form-group col-lg-6">
-                        <button type="button" class="btn btn-default btn-lg">
-                            place holders
-                        </button>
-                    </div>
-
-                </div>
-
-            </form> -->
-            
-            <!-- form 1.5 -->
             <form  class="animal-form" action="/action_page.php">
                 <select class="animal-select" name="pets" id="">
                     <option class="animal-text" value="0">Select Animal</option>
@@ -116,25 +79,79 @@
                     <option class="animal-text" value="4">thicc</option>
                 </select>
                 <br><br><br><br>
-                <input type="submit">
+                <input class="input" type="submit">
             </form>
         
-            <!-- form 2.0 -->
-            <!-- <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">
-                    Dropdown
-                </button>
-                <div id="myDropdown" class="dropdown-content">
-                    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
-                    <a href="">Dog</a>
-                    <a href="">Cat</a>
-                    <a href="">Reptile</a>
-                    <a href="">Farm Animal</a>
-                </div>
-            </div> -->
         </div>
 
+        <div class="container">
+            <div class="row">
+                    <div class="card col-lg-6">
+                            <div class="card">
+                                    <img class="card-img-top cardImg" src="./imgs/doggg.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <div style="text-align: center;">
+                                            <a href="#" class="btn btn-primary cardBtn">Go somewhere</a>
+                                      </div>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="card col-lg-6">
+                            <div class="card">
+                                    <img class="card-img-top cardImg" src="./imgs/dog-sweater.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary cardBtn">Go somewhere</a>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="card col-lg-6">
+                            <div class="card">
+                                    <img class="card-img-top cardImg" src="./imgs/lady-dog.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary cardBtn">Go somewhere</a>
+                                    </div>
+                                  </div>
+                    </div>
+                    <div class="card col-lg-6">
+                            <div class="card">
+                                    <img class="card-img-top cardImg" src="./imgs/filler.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary cardBtn">Go somewhere</a>
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+              
 
 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCY0_ZfhfvYKd6dEKnFZg5NhpIFw8lccZ4",
+    authDomain: "central-valley-pets.firebaseapp.com",
+    databaseURL: "https://central-valley-pets.firebaseio.com",
+    projectId: "central-valley-pets",
+    storageBucket: "central-valley-pets.appspot.com",
+    messagingSenderId: "417287970883",
+    appId: "1:417287970883:web:447cdfb3e1ba5d00"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 </body>
 </html>
