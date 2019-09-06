@@ -15,6 +15,11 @@ h4 {
 
 .nav-box {
   background-color: white;
+  margin-top: -25px;
+}
+
+.navbar {
+  border: none;
 }
 
 a
@@ -159,15 +164,21 @@ a:hover
 }
 
 .logo {
-  height: 250px;
+  height: 200px;
   width: 250px;
   margin-left: 50%;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .btn
 {
   margin-top: 100px;
   margin-right: 100px;
+}
+
+.friend {
+  right: 100%;
 }
 
 .corgie {
@@ -178,14 +189,6 @@ a:hover
   z-index: -1;
 } 
 
-.grass {
-  height: 500px;
-  width: 500px;
-  margin-top: -270px;
-  margin-left: 25%;
-  z-index: 1;
-  background-repeat: repeat;
-}
 
 /* start of body */
 .animal-form
