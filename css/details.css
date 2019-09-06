@@ -1,0 +1,22 @@
+.jumbotron{
+  height: 425px;
+  width: auto;
+  background-image: url("../img/athena.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+img{
+
+  max-width: 100%;
+  max-height: 500px;
+  width: auto 100%;
+
+}
+
+.logo{
+
+  width:100px;
+  height:150px;
+  width:auto;
+}
